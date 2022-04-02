@@ -16,7 +16,7 @@ class RateLimitServiceProvider extends ServiceProvider
         $router->aliasMiddleware('ratelimit', RateLimit::class);
 
         $this->publishes([
-            __DIR__.'/config/ratelimit.php' => config_path('ratelimit.php'),
+            __DIR__.'/../config/ratelimit.php' => config_path('ratelimit.php'),
         ]);
         
         // dd("Its worked!");
@@ -26,7 +26,7 @@ class RateLimitServiceProvider extends ServiceProvider
     {
         
         $this->mergeConfigFrom(
-            __DIR__.'/config/ratelimit.php', 'ratelimit'
+            __DIR__.'/../config/ratelimit.php', 'ratelimit'
         );
     
     }
