@@ -1,4 +1,4 @@
-# Laravel Rate Limiter Advanced for Search Engine Bots
+# Laravel Rate Limiter Plus Advanced for Search Engine Bots
 
 It is the extended version of the Laravel Rate Limiting class.
 Removes limitations on search engine bots.
