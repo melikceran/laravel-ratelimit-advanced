@@ -1,5 +1,5 @@
 {
-    "name": "melikceran/ratelimit",
+    "name": "melikceran/laravel-ratelimit",
     "description": "Test içindir",
     "type": "library",
     "license": "MIT",
