@@ -1,5 +1,5 @@
 {
-    "name": "melikceran/laravel-ratelimit",
+    "name": "melikceran/laravel-ratelimit-advanced",
     "description": "Extends Laravel Rate Limiting class and gives unlimited access to search engines.",
     "version": "1.0.0",
     "type": "library",
