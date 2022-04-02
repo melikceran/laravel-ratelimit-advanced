@@ -17,7 +17,7 @@ class RateLimitServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/config/ratelimit.php' => config_path('ratelimit.php'),
-        ]);
+        ], 'ratelimit');
         
         // dd("Its worked!");
     }
