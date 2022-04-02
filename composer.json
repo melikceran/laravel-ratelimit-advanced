@@ -1,0 +1,25 @@
+{
+    "name": "melikceran/ratelimit",
+    "description": "Test içindir",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Melikceran\\RateLimit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Melikceran\\RateLimit\\RateLimitServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Melik CERAN"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
