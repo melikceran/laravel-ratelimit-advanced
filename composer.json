@@ -18,9 +18,11 @@
     },
     "authors": [
         {
-            "name": "Melik CERAN"
+            "name": "Melik CERAN",
+            "email": "melikceran@hotmail.com"
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {}
 }
