@@ -1,6 +1,7 @@
 {
     "name": "melikceran/laravel-ratelimit",
-    "description": "Test içindir",
+    "description": "Extends Laravel Rate Limiting class and gives unlimited access to search engines.",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
