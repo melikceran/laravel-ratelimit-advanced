@@ -38,6 +38,19 @@ It is an extended version of the Laravel Rate Limiter class. There is no extra r
 > 
 > Reverse DNS Lookup: 	dns_get_record()
 
+    
+    
+## Install
+
+    composer require melikceran/laravel-ratelimit-advanced
+    
+    
+## Configuration
+  To publish the configuration file; (config/ratelimit.php)
+
+    php artisan vendor:publish --tag=ratelimit
+    
+    
 
 
 ## Use of;
@@ -52,14 +65,7 @@ For real-time querying without using cache;
     Route::get('/', function () {
         return view('welcome');
     })->middleware('ratelimit:30,false');
-    
-    
-## Configuration;
-  To publish the configuration file; (config/ratelimit.php)
 
-    php artisan vendor:publish --tag=ratelimit
-    
-    
     
     
     
